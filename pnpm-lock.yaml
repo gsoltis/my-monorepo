@@ -17,9 +17,6 @@ importers:
       prettier:
         specifier: ^3.1.0
         version: 3.1.0
-      turbo:
-        specifier: canary
-        version: 1.10.17-canary.6
 
   apps/docs:
     dependencies:
@@ -4392,66 +4389,6 @@ packages:
     dependencies:
       tslib: 1.14.1
       typescript: 5.2.2
-    dev: true
-
-  /turbo-darwin-64@1.10.17-canary.6:
-    resolution: {integrity: sha512-u55nBMM6Z6cvRChF3NPsKEJXJKvv70aznbL/yBgKxyUi1M//dY7X4YiTkjINvDJVpvLWsdQZMhR2wlKqlVZ6vg==}
-    cpu: [x64]
-    os: [darwin]
-    requiresBuild: true
-    dev: true
-    optional: true
-
-  /turbo-darwin-arm64@1.10.17-canary.6:
-    resolution: {integrity: sha512-EoQB0B4UCZSd0REbzdf4U4/RQk5Qzbzh8+v7LuKCegnfUBNqA0fjkaY4yVWsFey32eV2zGjKUiADmpX6YJp9Jg==}
-    cpu: [arm64]
-    os: [darwin]
-    requiresBuild: true
-    dev: true
-    optional: true
-
-  /turbo-linux-64@1.10.17-canary.6:
-    resolution: {integrity: sha512-88hYRgpQpaKTe+8XgGHApURV2TBt905AH+GEzfKhjZmW4jm24jz3uunWWMxzA4HuoECYj3gKZXUC5BaiK9MvKQ==}
-    cpu: [x64]
-    os: [linux]
-    requiresBuild: true
-    dev: true
-    optional: true
-
-  /turbo-linux-arm64@1.10.17-canary.6:
-    resolution: {integrity: sha512-TGn4qH9Vh1b85AU2ghIu1jnYDYCliAMiGZUjrqSg3KFV3co9flVkdYfAoLxN3yuJJf3vLR7p/yD/G0WY0t19aQ==}
-    cpu: [arm64]
-    os: [linux]
-    requiresBuild: true
-    dev: true
-    optional: true
-
-  /turbo-windows-64@1.10.17-canary.6:
-    resolution: {integrity: sha512-0LwgxkKis7thoX7IpXQpkmrQPQQVecz8ZNIbanJYN84C1q5G4DRJoQUTzSy5cYvaDa2dwX5s1Sq48TGY97I4Aw==}
-    cpu: [x64]
-    os: [win32]
-    requiresBuild: true
-    dev: true
-    optional: true
-
-  /turbo-windows-arm64@1.10.17-canary.6:
-    resolution: {integrity: sha512-ldUCD/4uiePpeTlWe/8dGifSIxBCAhEUyB2VZ8hxNEZFZNaCZx4nZA0JCyJ8R3uA8rW+Oh4nKsaYh3iQ8HdIvw==}
-    cpu: [arm64]
-    os: [win32]
-    requiresBuild: true
-    dev: true
-    optional: true
-
-  /turbo@1.10.17-canary.6:
-    resolution: {integrity: sha512-OWIcX8ZMVK8JNy960fkoA7hZp32Dxn6vAtYVtBMxkM4SqBi3gAQGCkqzIU7Y1HNSvD6Y9UUTCx8GV70zWnHIww==}
-    hasBin: true
-    optionalDependencies:
-      turbo-darwin-64: 1.10.17-canary.6
-      turbo-darwin-arm64: 1.10.17-canary.6
-      turbo-linux-64: 1.10.17-canary.6
-      turbo-linux-arm64: 1.10.17-canary.6
-      turbo-windows-64: 1.10.17-canary.6
-      turbo-windows-arm64: 1.10.17-canary.6
     dev: true
 
   /type-check@0.4.0:
