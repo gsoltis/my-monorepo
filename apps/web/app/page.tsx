@@ -80,14 +80,7 @@ export default function Page(): JSX.Element {
       <div className={styles.hero}>
         <div className={styles.heroContent}>
           <div className={styles.logos}>
-            <div className={styles.circles}>
-              <Image
-                alt="Turborepo"
-                height={614}
-                src="circles.svg"
-                width={614}
-              />
-            </div>
+            <div className={styles.circles}>Just some text instead</div>
             <div className={styles.logoGradientContainer}>
               <Gradient className={styles.logoGradient} conic small />
             </div>
